@@ -7,14 +7,15 @@ h1 a {
     color: #422BBB;
     font-family: myFirstFont;
 }
+
 body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 .page-header {
-    background-color: #422BBB;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    background-color: #0d406d;
+    margin-top: 10;
+    padding: 10px 10px 10px 10px
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -33,6 +34,7 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    margin-bottom: -21px;
 }
 
 .save {
@@ -40,7 +42,7 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
-    width: 100%;
+    width: 60%;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -48,10 +50,11 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    margin-top: -50px;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .post h1 a, .post h1 a:visited {
