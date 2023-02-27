@@ -3,6 +3,8 @@
     src: url(Archivo2.ttf);
 }
 
+@import "reset.css";
+
 h1 a {
     color: #422BBB;
     font-family: myFirstFont;

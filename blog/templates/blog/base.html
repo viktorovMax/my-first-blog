@@ -1,3 +1,4 @@
+<!doctype html>
 {% load static %}
 <html>
     <head>
@@ -7,7 +8,11 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
+<!-- comment-->
+
+         <a href="https://www.ibm.com" target="_blank">IBM</a>
         <div class="page-header">
+
             <h1><a href="/">Suomi 4 blogi</a></h1>
         {% if user.is_authenticated %}
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
@@ -21,5 +26,8 @@
                 </div>
             </div>
         </div>
+        <footer class="footer">
+            <h6>2023 Created by Nermin Iusufovich as a part of Xamk Suomi 4 course.</h6>
+        </footer>
     </body>
 </html>
