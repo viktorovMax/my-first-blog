@@ -5,28 +5,28 @@
 
 h1 a {
     color: #422BBB;
-    font-family: myFirstFont;
+    font-family: myFirstFont, sans-serif;
 }
 
 body {
-    padding-left: 15px;
 }
 
 .page-header {
-    background-color: #0d406d;
+    background-color: #1081CB;
     margin-top: 0;
-    padding: 10px 10px 10px 10px
+    padding: 1em 1em 1em 1em
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: xxx-large;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+    width: 80%;
 }
+
 
 h1, h2, h3, h4 {
     font-family: myFirstFont, cursive;
@@ -34,6 +34,7 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    margin: 0;
 }
 
 .save {
@@ -44,16 +45,20 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 24pt;
-    margin-right: 915px;
-    margin-top: -57px;
+.top-menu, .top-menu:visited {
+    color: #FFFFFF;
+    float: left;
+    font-size: xx-large;
+    margin-left: 9.5em;
+    margin-top: -1.7em;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 4em;
+}
+
+.post h1 {
+    margin-top: -0.3em;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -61,11 +66,10 @@ h1, h2, h3, h4 {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: 0;
+    padding: 0.6em;
     width: 100%;
-    background-color: #0d406d;
+    background-color: #209CEE;
     color: white;
     text-align: center;
 }

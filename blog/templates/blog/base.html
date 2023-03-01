@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
     </head>
     <body>
 <!-- comment-->
@@ -16,12 +17,8 @@
         {% endif %}
         </div>
         <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                {% block content %}
-                {% endblock %}
-                </div>
-            </div>
+            {% block content %}
+            {% endblock %}
         </div>
         <footer>
             <h6>2023 Created by Nermin Iusufovich as a part of Xamk Suomi 4 course.</h6>
